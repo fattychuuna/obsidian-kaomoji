@@ -195,7 +195,8 @@ export class KaomojiSettingTab extends PluginSettingTab {
 	private promptForImport(): void {
 		const input = activeDocument.body.createEl('input', {
 			type: 'file',
-			attr: { accept: 'application/json,.json', style: 'display: none;' },
+			cls: 'kaomoji-hidden-input',
+			attr: { accept: 'application/json,.json' },
 		});
 
 		const cleanup = () => input.remove();

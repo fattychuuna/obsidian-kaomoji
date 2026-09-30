@@ -22,6 +22,12 @@ If your plugin does not need CSS, delete this file.
 	font-size: var(--font-smaller);
 }
 
+/* The file <input> behind the "Import…" button. It has to be attached to the
+   document for Electron to open a native file dialog, but must never be seen. */
+.kaomoji-hidden-input {
+	display: none;
+}
+
 /* Paste-JSON box in the settings tab */
 .emoji-import-textarea {
 	width: 100%;
