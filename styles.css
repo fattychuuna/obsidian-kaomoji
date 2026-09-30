@@ -1,0 +1,31 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+/* One row in the ':' autocomplete popup: kaomoji on the left, shortcode right.
+   The matched characters inside the shortcode get .suggestion-highlight from
+   renderMatches(), which Obsidian's theme already styles — don't restyle it
+   here, or highlighting stops matching the rest of the app. */
+.kaomoji-suggestion {
+	display: flex;
+	align-items: baseline;
+	gap: 0.75em;
+}
+
+.kaomoji-suggestion-code {
+	color: var(--text-muted);
+	font-size: var(--font-smaller);
+}
+
+/* Paste-JSON box in the settings tab */
+.emoji-import-textarea {
+	width: 100%;
+	min-height: 8em;
+	font-family: var(--font-monospace);
+	resize: vertical;
+}

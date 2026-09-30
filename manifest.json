@@ -1,0 +1,11 @@
+{
+	"id": "kaomoji",
+	"name": "Kaomoji",
+	"version": "1.0.0",
+	"minAppVersion": "1.1.0",
+	"description": "Insert kaomoji and custom emoji from a :shortcode autocomplete.",
+	"author": "fattychuuna",
+	"authorUrl": "https://github.com/fattychuuna",
+	"fundingUrl": "https://ko-fi.com/fattychuuna",
+	"isDesktopOnly": false
+}
