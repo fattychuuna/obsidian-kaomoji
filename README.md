@@ -10,6 +10,8 @@ Type `:` in any note, start typing a shortcode, and pick from the popup:
 :tf   →  (╯°□°)╯︵ ┻━┻
 ```
 
+> **Desktop only.** This plugin isn't available on Obsidian for iOS or Android.
+
 ## Features
 
 - **Fuzzy matching** — characters need only appear in order, so `:tf` finds
@@ -59,7 +61,8 @@ shared or re-imported elsewhere.
 
 ### From the community directory
 
-Not yet available — see [Manual installation](#manual-installation) for now.
+In Obsidian, go to **Settings** → **Community plugins** → **Browse**, search for
+**Kaomoji**, then select **Install** and **Enable**.
 
 ### Manual installation
 
