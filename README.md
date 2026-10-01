@@ -23,9 +23,9 @@ Type `:` in any note, start typing a shortcode, and pick from the popup:
 
 ## Usage
 
-Type `:` followed by a shortcode. Press `Enter` or click to insert; the typed
-`:shortcode` is replaced by the emoji. Typing just `:` lists everything
-alphabetically.
+Type `:` followed by a shortcode, then press `Enter` or select a suggestion to
+insert it; the typed `:shortcode` is replaced by the emoji. Typing just `:` lists
+everything alphabetically.
 
 ### Managing your emoji
 
